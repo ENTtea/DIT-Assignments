@@ -12,7 +12,7 @@ def apply_transform(image, scale, rotation, translation_x, translation_y, flip_h
     # Convert the image from PIL format to a NumPy array
     image = np.array(image)
     # Pad the image to avoid boundary issues
-    pad_size = min(image.shape[0], image.shape[1]) // 2
+    pad_size = min(image.shape[1], image.shape[0]) // 2
     image_new = np.zeros((pad_size*2+image.shape[0], pad_size*2+image.shape[1], 3), dtype=np.uint8) + np.array((255,255,255), dtype=np.uint8).reshape(1,1,3)
     image_new[pad_size:pad_size+image.shape[0], pad_size:pad_size+image.shape[1]] = image
     image = np.array(image_new)

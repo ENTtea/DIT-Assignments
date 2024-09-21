@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import gradio as gr
-from scipy.interpolate import griddata
 
 # 初始化全局变量，存储控制点和目标点
 points_src = []
@@ -84,44 +83,6 @@ def point_guided_deformation(image, source_pts, target_pts, alpha=1.0, eps=1e-8)
         f_vector_v = np.sum(np.einsum('ij,ijk->ik', qi__, Aii), axis=0)
         f_v = np.linalg.norm(v - p_star) * f_vector_v / (np.linalg.norm(f_vector_v) + eps) + q_star
         return f_v
-
-    '''
-    X = np.zeros_like(image[..., 0], dtype=np.float32)
-    Y = np.zeros_like(image[..., 0], dtype=np.float32)
-    for i in range(warped_image.shape[1]):
-        for j in range(warped_image.shape[0]):
-            x, y = warp(np.array([i, j]))
-            X[j, i] += x
-            Y[j, i] += y
-    X = np.clip(X, 0, image.shape[1] - 1)
-    Y = np.clip(Y, 0, image.shape[0] - 1)
-    warped_image = cv2.remap(image, X, Y, interpolation=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
-    '''
-    '''
-    # s x s grids with linear interpolate
-    stride = 20
-    H = image.shape[0]
-    W = image.shape[1]
-    X = np.array([[range(W)] for _ in range(H)], dtype=np.float32).squeeze(1)
-    Y = np.array([[range(H)] for _ in range(W)], dtype=np.float32).T.squeeze(1)
-
-    for i in range(0, W, stride):
-        for j in range(0, H, stride):
-            x, y = warp(np.array([i, j]))
-            X[j, i] = x
-            Y[j, i] = y
-    for i in range(1, W - stride, stride):
-        for j in range(0, H, stride):
-            for k in range(stride - 1):
-                X[j, i + k] = ((k + 1) * X[j, i + stride - 1] + (stride - k - 1) * X[j, i - 1]) / stride
-                Y[j, i + k] = ((k + 1) * Y[j, i + stride - 1] + (stride - k - 1) * Y[j, i - 1]) / stride
-
-    for i in range(0, W, 1):
-        for j in range(1, H - stride, stride):
-            for k in range(stride - 1):
-                X[j + k, i] = ((k + 1) * X[j + stride - 1, i] + (stride - k - 1) * X[j - 1, i]) / stride
-                Y[j + k, i] = ((k + 1) * Y[j + stride - 1, i] + (stride - k - 1) * Y[j - 1, i]) / stride
-    '''
 
     # ss x ss coarse grids and s x s fine grids with linear interpolate
     ss = 20  # resolution of coarse grids

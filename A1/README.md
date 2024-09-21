@@ -23,20 +23,5 @@ python run_point_transform.py
 ```
 ## Acknowledgement
 
-📋 Thanks for the algorithms proposed by [Image Deformation Using Moving Least Squares](#citation).
+📋 Thanks for the algorithms proposed by [Image Deformation Using Moving Least Squares.(https://people.engr.tamu.edu/schaefer/research/mls.pdf).
 
-### Citation
-
-If you find this work useful in your research, please consider citing:
-
-```bibtex
-@article{author,
-  title={Image Deformation Using Moving Least Squares},
-  author={Schaefer, Scott and McPhail, Travis and Warren, Joe},
-  journal={ACM Transactions on Graphics (TOG)},
-  volume={25},
-  number={3},
-  pages={506--514},
-  year={2006},
-  publisher={ACM}
-}

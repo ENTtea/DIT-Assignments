@@ -24,8 +24,10 @@ python run_point_transform.py
 ## Results
 
 ### Basic Transformation
+![None](pic/global.gif)
 
 ### Point Guided Deformation:
+![None](pic/points.gif)
 
 ## Acknowledgement
 

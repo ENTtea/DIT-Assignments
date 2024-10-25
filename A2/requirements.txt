@@ -1,0 +1,6 @@
+python-opencv
+numpy==1.23.1
+gradio==3.36.1
+torch
+torchvision
+torchaudio

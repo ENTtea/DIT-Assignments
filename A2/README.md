@@ -24,10 +24,14 @@ python train.py
 ## Results
 
 ### Poisson Image Editing with PyTorch
-![None](pic/global.gif)
+![None](pic/poission.png)
 
 ### Pix2Pix
-![None](pic/points.gif)
+Partial results of training sets and validation sets
+train:
+![None](pic/train.png)
+valid:
+![None](pic/val.png)
 
 ## Acknowledgement
 

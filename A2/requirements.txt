@@ -1,6 +1,6 @@
 python-opencv
 numpy==1.23.1
 gradio==3.36.1
-torch
-torchvision
-torchaudio
+torch==2.5.0
+torchvision==0.20.0
+

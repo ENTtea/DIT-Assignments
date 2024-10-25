@@ -28,9 +28,10 @@ python train.py
 
 ### Pix2Pix
 Partial results of training sets and validation sets
-train:
+
+train_results:
 ![None](pic/train.png)
-valid:
+valid_results:
 ![None](pic/val.png)
 
 ## Acknowledgement

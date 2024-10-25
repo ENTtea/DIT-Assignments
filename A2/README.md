@@ -10,7 +10,7 @@ python -m pip install -r requirements.txt
 ```
 
 ## Running
-To run data_poission, run:
+To run Poisson Image Editing with PyTorch, run:
 
 ```bash
 python run_blending_gradio.py
@@ -23,12 +23,13 @@ python train.py
 ```
 ## Results
 
-### Basic Transformation
+### Poisson Image Editing with PyTorch
 ![None](pic/global.gif)
 
-### Point Guided Deformation:
+### Pix2Pix:
 ![None](pic/points.gif)
 
 ## Acknowledgement
 
-📋 Thanks for the algorithms proposed by [Image Deformation Using Moving Least Squares](https://people.engr.tamu.edu/schaefer/research/mls.pdf).
+📋 Thanks for the algorithms proposed by [Poisson Image Editing](https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf).
+📋 Thanks for the algorithms proposed by [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038).

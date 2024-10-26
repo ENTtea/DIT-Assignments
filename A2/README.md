@@ -1,4 +1,4 @@
-# Implementation of Image Geometric Transformation
+# Implementation of DIP with torch
 This repository is Jiahao Zhang's implementation of Assignment_02 of DIP.
 
 ## Requirements

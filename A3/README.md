@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 ```
 
 ## Running
-To run Pix2Pix with GANs, navigate to the target folder `pix2pix with GANs` and run `train.py`::
+To run Pix2Pix with GANs, navigate to the target folder `pix2pix with GANs` and run `train.py`:
 
 ```bash
 cd pix2pix with GANs
@@ -19,6 +19,23 @@ python train.py
 ```
 
 To run automatic editing with dragGANs, 
+1. Clone the original implementation of the DragGAN paper:
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+2. Install the required libraries and download the pre-trained models as specified in requirements.txt and scripts/download_model.py
+```bash
+pip install -r requirements.txt
+python scripts/download_model.py
+```
+3. Add the Python file auto_drag_gradio.py from folder automatic picture editing to the cloned repository.
+4. Run the auto_drag_gradio.py file:
+```bash
+python auto_drag_gradio.py
+```
+5. If you encounter an error when clicking the four automatic editing buttons for the first time, click them again. This should generate the target editing points.
+6. Once the target points are visible, click the Start button in the interface to begin dragging the image.
 
 ## Results
 

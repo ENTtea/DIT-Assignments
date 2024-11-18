@@ -37,6 +37,28 @@ smile:
   <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/smile_t.png" alt="Image 12" width="300" style="display: inline-block;"/>
 </p>
 
+thin face:
+
+<p align="center">
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/thin_s.png" alt="Image 11" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/thin_t.png" alt="Image 12" width="300" style="display: inline-block;"/>
+</p>
+
+closed eye:
+
+<p align="center">
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/closed_s.png" alt="Image 11" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/closed_t.png" alt="Image 12" width="300" style="display: inline-block;"/>
+</p>
+
+big eye:
+
+<p align="center">
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/big_s.png" alt="Image 11" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/big_t.png" alt="Image 12" width="300" style="display: inline-block;"/>
+</p>
+
+
 ## Acknowledgement
 
 📋 Thanks for the algorithms of image editing proposed by [Poisson Image Editing](https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf).

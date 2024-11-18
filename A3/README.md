@@ -18,16 +18,26 @@ python train.py
 ```
 ## Results
 
-### Poisson Image Editing with PyTorch
-![None](pic/poission.png)
-
-### Pix2Pix
+### Pix2Pix with GANs
 Partial results of training sets and validation sets
 
 train_results:
-![None](pic/train.png)
+![None](pic/train1.png)
+![None](pic/train2.png)
 valid_results:
-![None](pic/val.png)
+![None](pic/val1.png)
+![None](pic/val2.png)
+
+### Automatic editing with DragGANs
+
+smile:
+![None](pic/smile_s.png)
+![None](pic/smile_t.png)
+
+<p align="center">
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/smile_s.png" alt="Image 1" width="200" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/smile_t.png" alt="Image 1" width="200" style="display: inline-block;"/>
+</p>
 
 ## Acknowledgement
 

@@ -11,11 +11,15 @@ python -m pip install -r requirements.txt
 ```
 
 ## Running
-To run point Pix2Pix with GANs, run:
+To run Pix2Pix with GANs, navigate to the target folder `pix2pix with GANs` and run `train.py`::
 
 ```bash
+cd pix2pix with GANs
 python train.py
 ```
+
+To run automatic editing with dragGANs, 
+
 ## Results
 
 ### Pix2Pix with GANs

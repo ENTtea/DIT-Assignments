@@ -31,12 +31,10 @@ valid_results:
 ### Automatic editing with DragGANs
 
 smile:
-![None](pic/smile_s.png)
-![None](pic/smile_t.png)
 
 <p align="center">
-  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/smile_s.png" alt="Image 1" width="200" style="display: inline-block;"/>
-  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/smile_t.png" alt="Image 1" width="200" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/smile_s.png" alt="Image 11" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/smile_t.png" alt="Image 12" width="300" style="display: inline-block;"/>
 </p>
 
 ## Acknowledgement

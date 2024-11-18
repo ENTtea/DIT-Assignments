@@ -1,5 +1,6 @@
 # Play with GANs
 This repository is Jiahao Zhang's implementation of Assignment_03 of DIP.
+![None](pic/UI.png)
 
 ## Requirements
 

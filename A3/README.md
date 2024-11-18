@@ -22,11 +22,19 @@ python train.py
 Partial results of training sets and validation sets
 
 train_results:
-![None](pic/train1.png)
-![None](pic/train2.png)
+<p align="center">
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/train1.png" alt="Image 11" width="300" style="display: inline-block;"/>
+</p>
+<p align="center">
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/train2.png" alt="Image 11" width="300" style="display: inline-block;"/>
+</p>
 valid_results:
-![None](pic/val1.png)
-![None](pic/val2.png)
+<p align="center">
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/val1.png" alt="Image 11" width="300" style="display: inline-block;"/>
+</p>
+<p align="center">
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/val2.png" alt="Image 11" width="300" style="display: inline-block;"/>
+</p>
 
 ### Automatic editing with DragGANs
 

@@ -89,7 +89,6 @@ big eye:
 
 
 ## Acknowledgement
-
-📋 Thanks for the algorithms of image editing proposed by [Poisson Image Editing](https://www.cs.jhu.edu/~misha/Fall07/Papers/Perez03.pdf).
-
-📋 Thanks for the algorithms of the pix2pix proposed by [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038).
+📋 Thanks for the algorithms of the Pix2Pix proposed by [Image-to-Image Translation with Conditional Adversarial Nets](https://arxiv.org/abs/1611.07004).
+📋 Thanks for the algorithms of the DragGANS proposed by [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://arxiv.org/abs/2305.10973).
+📋 Thanks for the algorithms of the face alignment proposed by [Facial Landmarks Detection](https://github.com/1adrianb/face-alignment).

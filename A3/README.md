@@ -23,17 +23,17 @@ Partial results of training sets and validation sets
 
 train_results:
 <p align="center">
-  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/train1.png" alt="Image 11" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/train1.png" alt="Image 11" width="500" style="display: inline-block;"/>
 </p>
 <p align="center">
-  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/train2.png" alt="Image 11" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/train2.png" alt="Image 11" width="500" style="display: inline-block;"/>
 </p>
 valid_results:
 <p align="center">
-  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/val1.png" alt="Image 11" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/val1.png" alt="Image 11" width="500" style="display: inline-block;"/>
 </p>
 <p align="center">
-  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/val2.png" alt="Image 11" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/ENTtea/DIT-Assignments/blob/main/A3/pic/val2.png" alt="Image 11" width="500" style="display: inline-block;"/>
 </p>
 
 ### Automatic editing with DragGANs

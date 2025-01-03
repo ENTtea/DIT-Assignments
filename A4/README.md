@@ -13,19 +13,19 @@ python -m pip install -r requirements.txt
 Use Colmap to recover camera poses and a set of 3D points:
 
 ```bash
-python mvs_with_colmap.py --data_dir data/chair
+python mvs_with_colmap.py --data_dir chair
 ```
 
 Debug the reconstruction by running:
 
 ```bash
-python debug_mvs_by_projecting_pts.py --data_dir data/chair
+python debug_mvs_by_projecting_pts.py --data_dir chair
 ```
 
 Build and train 3DGS model:
 
 ```bash
-python train.py --colmap_dir data/chair --checkpoint_dir data/chair/checkpoints
+python train.py --colmap_dir data/chair --checkpoint_dir chair/checkpoints
 ```
 
 ## Results

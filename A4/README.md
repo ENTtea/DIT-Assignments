@@ -25,7 +25,7 @@ python debug_mvs_by_projecting_pts.py --data_dir chair
 Build and train 3DGS model:
 
 ```bash
-python train.py --colmap_dir data/chair --checkpoint_dir chair/checkpoints
+python train.py --colmap_dir chair --checkpoint_dir chair/checkpoints
 ```
 
 ## Results
